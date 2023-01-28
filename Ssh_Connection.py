@@ -1,6 +1,7 @@
 ## paramiko  Module
 ## it's use only one server i am find out  multiple server
 ## p=  object
+## output =convert in to list using  ".join(output)" and all stdout save in output 
 
 import paramiko
 p = paramiko.SSHClient()
@@ -10,6 +11,6 @@ stdin, stdout, stderr = p.exec_command ('''cat /etc/fstab
 cat /etc/hosts
 ifconfig
 df -h ''')
-opt = stdout.readlines()
-opt ="".join(opt)
-print(opt)
+output = stdout.readlines()
+output ="".join(output)
+print(output)
