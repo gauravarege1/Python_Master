@@ -1,0 +1,5 @@
+this is test file checking with read,write and append
+this is test file checking with read,write and append /n 
+this is test file checking with read,write and append 
+this is modify from file itself
+this is modify from visula studio code for checking
