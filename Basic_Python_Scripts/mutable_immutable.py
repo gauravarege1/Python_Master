@@ -58,42 +58,44 @@
 #     print (c)
     
 
-# lottery_number=29
-# count=0
-# guess_number=int(input("Enter your  number:"))
-# while guess_number != lottery_number:
-#     if guess_number == lottery_number:
-#         print ("You Win !!!")
-#     elif guess_number < lottery_number:
-#         print ("Your number is too low")
-#     elif guess_number > lottery_number:
-#         print ("Your numbner is too high")
-#     else:
-#         print ('Exit')
-#     count += 1
-#     if  count ==3:
-#         print ("Repet again")
-
-lottery=25
-number = 0
-count = 0
-while number != lottery:
-#    print(type(number))
-#    print(type(lottery))
-    number = int(input("Plese enter your  number: "))
-    if lottery > number:
-        print ("You are too close")
-    elif lottery < number:
-        print ("your value to too high")
-    elif lottery == number:
-        print ("you win")
-    count = count + 1
-    if count == 4:
-        print("Retries exceeded")
+lottery_number=29
+count=0
+guess_number= 0
+while guess_number != lottery_number:
+    guess_number=int(input ("Enter your guess number: "))
+    if guess_number < lottery_number:
+        print  ("number is too low")
+    elif guess_number > lottery_number:
+        print ("number is too high")
+    else:
+        print ("You Win")
+    count += 1
+    if  count ==4:
+        print("Try Again ")
         break
-else:
-    print("Money deposit")
+    print("your total attempts" ,count)
+    
 
-print(count)
+# lottery=25
+# number = 0
+# count = 0
+# while number != lottery:
+# #    print(type(number))
+# #    print(type(lottery))
+#     number = int(input("Plese enter your  number: "))
+#     if lottery > number:
+#         print ("You are too close")
+#     elif lottery < number:
+#         print ("your value to too high")
+#     elif lottery == number:
+#         print ("you win")
+#     count = count + 1
+#     if count == 4:
+#         print("Try Again ")
+#         break
+# else:
+#     print("Money deposit in your Bank Account")
+
+# print(count)
          
     
