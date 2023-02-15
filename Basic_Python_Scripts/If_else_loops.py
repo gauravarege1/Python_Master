@@ -58,22 +58,22 @@
 #     print (c)
     
 
-lottery_number=29
-count=0
-guess_number= 0
-while guess_number != lottery_number:
-    guess_number=int(input ("Enter your guess number: "))
-    if guess_number < lottery_number:
-        print  ("number is too low")
-    elif guess_number > lottery_number:
-        print ("number is too high")
-    else:
-        print ("You Win")
-    count += 1
-    if  count ==4:
-        print("Try Again ")
-        break
-    print("your total attempts" ,count)
+# lottery_number=29
+# count=0
+# guess_number= 0
+# while guess_number != lottery_number:
+#     guess_number=int(input ("Enter your guess number: "))
+#     if guess_number < lottery_number:
+#         print  ("number is too low")
+#     elif guess_number > lottery_number:
+#         print ("number is too high")
+#     else:
+#         print ("You Win")
+#     count += 1
+#     if  count ==4:
+#         print("Try Again ")
+#         break
+#     print("your total attempts" ,count)
     
 
 # lottery=25
@@ -97,5 +97,3 @@ while guess_number != lottery_number:
 #     print("Money deposit in your Bank Account")
 
 # print(count)
-         
-    
