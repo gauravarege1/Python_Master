@@ -97,3 +97,10 @@
 #     print("Money deposit in your Bank Account")
 
 # print(count)
+
+
+# d1={'people':[{'india':[{'id':123,'name':'Deepak'},
+#                        {'id':124,'name':'Amit'}]}]}
+# print (d1,'people'[0],'india',[1])
+
+
