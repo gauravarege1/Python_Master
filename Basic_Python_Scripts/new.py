@@ -9,10 +9,10 @@ for i in "dinesh":
 #          continue    
 #      print ('hello team  ')
 
-''' 
-x= [45,'abc',4.5,78,96]
-y=['ac',78,96,"pf"]
-z=[x+y]
-print (z)
-print (y[-1])
-print (78 in y)
+# ''' 
+# x= [45,'abc',4.5,78,96]
+# y=['ac',78,96,"pf"]
+# z=[x+y]
+# print (z)
+# print (y[-1])
+# print (78 in y)
